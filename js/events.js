@@ -19,15 +19,15 @@ function pressIt() {
   })
 }
 
-/*
+
 function submitIt() {
   $('submit').on('submit', function() {
-    if ($('submit').data('clicked',) {
+    if ($('submit').data('clicked')) {
       alert('Your form is going to be submitted now.');
       return;
     }
 }
-*/
+
 
 $(document).ready(function(){
 
@@ -35,6 +35,6 @@ $(document).ready(function(){
 getIt()
 frameIt()
 pressIt()
-///submitIt()
+submitIt()
 
 });
