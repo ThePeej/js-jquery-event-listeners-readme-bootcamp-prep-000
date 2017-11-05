@@ -20,7 +20,11 @@ function pressIt() {
 }
 
 function submitIt() {
-
+  $('submit').on('submit', function() {
+    if ($('submit').data('clicked',) {
+      alert('Your form is going to be submitted now.');
+      return;
+    }
 }
 
 $(document).ready(function(){
