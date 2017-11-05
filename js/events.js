@@ -19,6 +19,7 @@ function pressIt() {
   })
 }
 
+/*
 function submitIt() {
   $('submit').on('submit', function() {
     if ($('submit').data('clicked',) {
@@ -26,6 +27,7 @@ function submitIt() {
       return;
     }
 }
+*/
 
 $(document).ready(function(){
 
@@ -33,6 +35,6 @@ $(document).ready(function(){
 getIt()
 frameIt()
 pressIt()
-submitIt()
+///submitIt()
 
 });
