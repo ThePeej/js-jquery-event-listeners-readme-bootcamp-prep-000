@@ -13,8 +13,8 @@ function frameIt() {
 
 function pressIt() {
   $('#typing').on('keydown', function(key) {
-    if(key.which == 71){
-      alert('G was pressed');
+    if(key.which === 71){
+      alert('G was pressed')
     }
   })
 }
@@ -23,6 +23,7 @@ function pressIt() {
 function submitIt() {
   $('form').on('submit', function() {
     alert('Your form is going to be submitted now.')
+    return
   })
 }
 
